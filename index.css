@@ -1,0 +1,55 @@
+th {
+   width: 40px;
+    text-align: center;
+}
+
+.td {
+  height: 20px;
+    width: 50px;
+    border: 1px solid grey;
+}
+thead {
+    width: 100%;
+}
+.td-delete {
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid grey;
+    background-color: rgb(239, 239, 239);
+    height: 20px;
+    width: 60px;
+}
+.td-delete:hover {
+    background-color: rgb(208, 206, 206);
+}
+input {
+    background-color: white;
+    width: 100%;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+button {
+    width: 100%;
+}
+
+.wrapper {
+    gap: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+.table-first,
+.table-second {
+    width: 150px;
+}
+
+.canvas-tables {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.canvas {
+    background-color: antiquewhite;
+}
+
